@@ -51,4 +51,6 @@ The p-value for Lot 3 is 0.04 so there is evidence to reject the hypothesis. The
 ![image](https://user-images.githubusercontent.com/114033254/227628527-43c1c913-182b-4cf3-9942-4ccd6e9b29f5.png)
 
 
+## Study Design: MechaCar vs Competition
 
+A study to compare the MechaCar to similar cars should compare safety ratings as this is very important to consumers when shopping for a car. Items that could be looked at include number of crashes and the National Highway Traffic Safety Administation safety rating for each type of car. When comparing more than two sets of numerical data, a one-way analysis of variance (ANOVA) test should be used first. If they return a statistically significant p value (usually meaning p < 0.05) then only they should be followed by a post hoc test to determine between exactly which two data sets the difference lies. Repeatedly applying the t test to a multiple group situation increases the possibility of incorrectly rejecting the null hypothesis.
